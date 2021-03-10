@@ -29,10 +29,6 @@ Link a producción : https://yugiohapp.vercel.app/
 2) 
 
 Nombre completo :  EMANUEL CLEMENTE URRUTIA PICARTE
-Rut : 18835473-4
-
-
-
 
 ---> SUGERENCIAS
 
