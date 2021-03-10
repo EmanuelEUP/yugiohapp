@@ -1,10 +1,12 @@
+// CORS
+const cors_anywhere = 'https://cors-anywhere.herokuapp.com/';
+
 //Base URL
 const base_url = "https://db.ygoprodeck.com/api/v7/cardinfo.php";
  
 //GET ALL CARDS
 const _ALLCARDS = base_url;
 const _ALLCARDS_FILTER = `${ base_url }?&sortorder=asc&num=30&offset=0&view=Gallery`; 
-
 
 
 //Routes

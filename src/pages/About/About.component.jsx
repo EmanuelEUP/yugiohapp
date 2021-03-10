@@ -1,8 +1,7 @@
 import React, { Fragment } from "react";
 
-import Imgabout from "./../../assets/images/about.png";
+import _srcabout from "./../../assets/images/about.png";
 import Image from "./../../components/Common/Image/Image.component";
-
 import "./About.styles.scss";
 
 const About = () => {
@@ -42,10 +41,11 @@ const About = () => {
           <div className="col-12 col-md-6">
 
           <Image
-              src={Imgabout}
+              src={_srcabout}
               classnames="hvr-shrink img-fluid"
               width="100%"
               height="100%"
+              alt="_about"
             />
 
  

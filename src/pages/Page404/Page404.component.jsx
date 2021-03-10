@@ -1,12 +1,12 @@
-import React, { Fragment } from "react";
+import React from "react";
 
-import Imgapage404 from "./../../assets/images/PAGE404.png";
+import Image from "./../../components/Common/Image/Image.component";
+import _srcapage404 from "./../../assets/images/PAGE404.png";
 
 import "./Page404.styles.scss";
 
 const Page404 = () => {
   return (
-    <Fragment>
       <div className="container-fluid">
         <div className="row">
           <div className="col-12 col-md-6 text-center">
@@ -18,11 +18,17 @@ const Page404 = () => {
           </div>
 
           <div className="col-12 col-md-6">
-            <img src={Imgapage404} className="hvr-shrink img-fluid" width="100%"></img>
+ 
+            <Image
+              src={_srcapage404}
+              classnames="hvr-shrink img-fluid"
+              width="100%"
+              height="100%"
+              alt="page404"
+            />
           </div>
         </div>
       </div>
-    </Fragment>
   );
 };
 

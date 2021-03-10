@@ -20,9 +20,10 @@ const SearchBar = ({validateQCard}) => {
     size="sm"
     type="text"
     id="q_game"
-    placeholder="Search for a card"
+    placeholder="Search for a card .... Ex : Dark Magician or Zoa"
     className="mr-2"
     onKeyPress={ e => validateQCard(e) } 
+    style={{width:"400px"}}
   />
 
 </Fragment>

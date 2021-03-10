@@ -2,9 +2,7 @@ import React, {
   Fragment,
   useContext,
   useState,
-  useEffect,
-  lazy,
-  Suspense,
+  useEffect
 } from "react";
 import Form from "react-bootstrap/Form";
 import SearchBar from "./../../../components/Cards/SearchBar/SearchBar.component";
@@ -301,7 +299,7 @@ const FormFilter = ({ validateQCard, getCardsFilter }) => {
 
         <SearchBar validateQCard={validateQCard} />
 
-        <div className="ml-auto">
+        <div className="ml-auto my-2 my-sm-0">
           <Button
             size="sm"
             type="button"

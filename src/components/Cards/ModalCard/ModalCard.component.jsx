@@ -1,11 +1,10 @@
-import React, { Fragment, Suspense, lazy } from "react";
+import React, { Fragment } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import ListGroup from "react-bootstrap/ListGroup";
-import Imgcardback from "./../../../assets/images/card.png";
+import _srccardback from "./../../../assets/images/card.png";
 import PropTypes from "prop-types";
-
-const Image = lazy(() => import("./../../Common/Image/Image.component"));
+import Image from "./../../Common/Image/Image.component"; 
 
 const ModalCard = ({ show, setShow, itemCard }) => {
   const handleClose = () => setShow(false);
@@ -37,23 +36,15 @@ const ModalCard = ({ show, setShow, itemCard }) => {
           <div className="container-fluid">
             <div className="row">
               <div className="col-12 col-sm-5">
-                <Suspense
-                  fallback={
-                    <img
-                      src={Imgcardback}
-                      className="my-0"
-                      width="100%"
-                      height="100%"
-                    />
-                  }
-                >
+              
                   <Image
                     src={itemCard.card_images[0].image_url}
                     classnames="hvr-grow-rotate my-0"
                     width="100%"
                     height="100%"
-                  ></Image>
-                </Suspense>
+                    alt="_imagecard"
+                  ></Image> 
+
               </div>
 
               <div className="col-12 col-sm-7">

@@ -3,20 +3,19 @@ import Carousel from "react-bootstrap/Carousel";
 
 import Image from "./../../components/Common/Image/Image.component";
 
-import ImgYamiYugi from "./../../assets/images/YamiYugi.png";
-import ImgYamiYugi02 from "./../../assets/images/YamiYugi02.png";
-import Imgseto from "./../../assets/images/seto.png";
-import Imgseto02 from "./../../assets/images/seto02.png";
-import Imgjoey from "./../../assets/images/joey.png";
-import Imgjoey02 from "./../../assets/images/joey02.png";
-import Imgyusei from "./../../assets/images/yusei.png";
-import Imgyusei02 from "./../../assets/images/yusei02.png";
-import Imgjaden from "./../../assets/images/jaden.png";
-import Imgjaden02 from "./../../assets/images/jaden02.png";
-
-import Imghistory from "./../../assets/images/history.png";
-import Imgrexraptor from "./../../assets/images/rexraptor.png";
-import Imgdarkmage from "./../../assets/images/darkmage.png";
+import _srcYamiYugi from "./../../assets/images/YamiYugi.png";
+import _srcYamiYugi02 from "./../../assets/images/YamiYugi02.png";
+import _srcseto from "./../../assets/images/seto.png";
+import _srcseto02 from "./../../assets/images/seto02.png";
+import _srcjoey from "./../../assets/images/joey.png";
+import _srcjoey02 from "./../../assets/images/joey02.png";
+import _srcyusei from "./../../assets/images/yusei.png";
+import _srcyusei02 from "./../../assets/images/yusei02.png";
+import _srcjaden from "./../../assets/images/jaden.png";
+import _srcjaden02 from "./../../assets/images/jaden02.png"; 
+import _srchistory from "./../../assets/images/history.png";
+import _srcrexraptor from "./../../assets/images/rexraptor.png";
+import _srcdarkmage from "./../../assets/images/darkmage.png";
 
 import "./HomePage.styles.scss";
 
@@ -32,17 +31,19 @@ const HomePage = () => {
                   <div className="row">
                     <div className="col-12 col-md-6">
                       <Image
-                        src={ImgYamiYugi}
+                        src={_srcYamiYugi}
                         classnames="hvr-grow-rotate d-none d-md-block"
                         width="90%"
                         height="550px"
+                        alt="_yamiyugi"
                       />
 
                       <Image
-                        src={ImgYamiYugi02}
+                        src={_srcYamiYugi02}
                         classnames="hvr-grow-rotate d-block d-md-none"
                         width="90%"
                         height="550px"
+                        alt="alt"
                       />
                     </div>
 
@@ -98,17 +99,19 @@ const HomePage = () => {
                   <div className="row">
                     <div className="col-12 col-md-6">
                       <Image
-                        src={Imgseto}
+                        src={_srcseto}
                         classnames="hvr-grow-rotate d-none d-md-block"
                         width="90%"
                         height="550px"
+                        alt="_setokaiba"
                       />
 
                       <Image
-                        src={Imgseto02}
+                        src={_srcseto02}
                         classnames="hvr-grow-rotate d-block d-md-none"
                         width="90%"
                         height="550px"
+                        alt="_setokaiba02"
                       />
                     </div>
 
@@ -156,17 +159,19 @@ const HomePage = () => {
                   <div className="row">
                     <div className="col-12 col-md-6">
                       <Image
-                        src={Imgjoey}
+                        src={_srcjoey}
                         classnames="hvr-grow-rotate d-none d-md-block"
                         width="90%"
                         height="550px"
+                        alt="_joey"
                       />
 
                       <Image
-                        src={Imgjoey02}
+                        src={_srcjoey02}
                         classnames="hvr-grow-rotate d-block d-md-none"
                         width="90%"
                         height="550px"
+                        alt="_joey"
                       />
                     </div>
 
@@ -221,17 +226,19 @@ const HomePage = () => {
                   <div className="row">
                     <div className="col-12 col-md-6">
                       <Image
-                        src={Imgyusei}
+                        src={_srcyusei}
                         classnames="hvr-grow-rotate d-none d-md-block"
                         width="90%"
                         height="550px"
+                        alt="_yusei"
                       />
 
                       <Image
-                        src={Imgyusei02}
+                        src={_srcyusei02}
                         classnames="hvr-grow-rotate d-block d-md-none"
                         width="90%"
                         height="550px"
+                        alt="_yusei"
                       />
                     </div>
 
@@ -272,17 +279,19 @@ const HomePage = () => {
                     <div className="col-12 col-md-6">
 
                     <Image
-                        src={Imgjaden}
+                        src={_srcjaden}
                         classnames="hvr-grow-rotate d-none d-md-block"
                         width="90%"
                         height="550px"
+                        alt="_jaden"
                       />
 
                       <Image
-                        src={Imgjaden02}
+                        src={_srcjaden02}
                         classnames="hvr-grow-rotate d-block d-md-none"
                         width="90%"
                         height="550px"
+                        alt="_jaden02"
                       />
  
                     </div>
@@ -357,20 +366,22 @@ const HomePage = () => {
 
           <div className="col-12 col-sm-6">
             <Image
-              src={Imghistory}
+              src={_srchistory}
               classnames="hvr-shrink  d-md-block"
               width="90%"
               height="550px"
+              alt="_history"
             />
           </div>
         </div>
         <div className="row my-5">
           <div className="col-12 col-sm-6">
             <Image
-              src={Imgdarkmage}
+              src={_srcdarkmage}
               classnames="hvr-float-shadow  d-md-block"
               width="90%"
               height="100%"
+              alt="darkimage"
             />
           </div>
 
@@ -478,10 +489,11 @@ const HomePage = () => {
 
           <div className="col-12 col-sm-6">
             <Image
-              src={Imgrexraptor}
+              src={_srcrexraptor}
               classnames="hvr-shrink  d-md-block"
               width="80%"
               height="100%"
+              alt="_rexraptor"
             />
           </div>
         </div>
